@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="innogeeks.inno.myapplication">
+    <!-- Internet Permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UserProfile">
+
+        </activity><activity
+        android:name=".Modpwd">
+
+    </activity>
+        <activity
+            android:name=".Signup" >
+        </activity>
+        <activity
+            android:name=".Quizrslh" >
+        </activity>
+        <activity
+            android:name=".Result" >
+        </activity>
+        <activity
+            android:name=".Score" >
+        </activity>
+        <activity
+            android:name=".Quiz" >
+        </activity>
+        <activity
+            android:name=".Pref" >
+        </activity>
+
+        <activity
+            android:name=".regis" >
+        </activity>
+
+        <activity
+            android:name=".Ques" >
+        </activity> <activity
+        android:name=".Resulhome" >
+    </activity>
+        <activity
+            android:name=".Qualification" >
+        </activity>
+        <activity
+        android:name=".Recregis" >
+    </activity>
+        <activity
+            android:name=".Qspin" >
+        </activity>
+        <activity
+            android:name=".Recmenu" >
+        </activity>
+        <activity
+            android:name=".Recview"
+            android:parentActivityName=".Recmenu">
+        </activity>
+
+    </application>
+
+</manifest>

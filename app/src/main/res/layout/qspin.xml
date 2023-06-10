@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--    <io.apptik.widget.multiselectspinner.MultiSelectSpinner
+        android:id="@+id/multiselectSpinner5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/seltt"/> -->
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/selval"
+    android:text="value"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="446dp"
+        android:orientation="vertical">
+    <ListView
+        android:id="@+id/listView8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView></ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ok"
+        android:id="@+id/pp"/>
+</LinearLayout>
